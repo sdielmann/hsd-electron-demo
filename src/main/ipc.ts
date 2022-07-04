@@ -1,7 +1,4 @@
-import { ipcMain, app } from 'electron';
 
 export const registerIpcHandlers = () => {
-  ipcMain.handle('getAppVersion', () => {
-    return app.getVersion();
-  })
+  // ToDo: Register IPC Handlers in IpcMain module
 }
