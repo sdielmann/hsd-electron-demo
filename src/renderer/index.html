@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Electron App</title>
+</head>
+<body>
+<h1>Hello and welcome in Electron!</h1>
+<p>The app version is: <span id="version"></span></p>
+<script>
+    window.myAPI.getAppVersion().then(v => {
+        document.getElementById('version').innerText = v;
+    });
+</script>
+</body>
+</html>

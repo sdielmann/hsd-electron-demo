@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "ES6",
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "paths": {
+      "*": ["node_modules/*"],
+      "@shared/*": ["./src/shared/*"],
+      "@main/*": ["./src/main/*"],
+      "@renderer/*": ["./src/renderer/*"],
+      "@src/*": ["./src/*"],
+    }
+  },
+  "include": ["src/**/*"]
+}

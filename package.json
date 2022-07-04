@@ -1,0 +1,13 @@
+{
+  "name": "hsd-electron-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "electron -r ts-node/register src/main/main.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^19.0.7",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
